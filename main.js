@@ -41,6 +41,6 @@ async function copyText(e) {
     } catch (err) {
         console.error(err);
     }
-}
+};
 
-copyBtns.forEach(copyBtn => { copyBtn.addEventListener('click', copyText) })
+copyBtns.forEach(copyBtn => { copyBtn.addEventListener('click', copyText) });
